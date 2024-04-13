@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 200px;
+    border-right: 1px solid #dbdbdb;
+    padding: 20px;
+    background-color: rgb(211, 209, 210);
+}
+
+.fa-instagram{
+    font-size: 70px;
+    padding-left: 50px;
+}
+
+.sidebar h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 36px;
+}
+
+.sidebar nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 0;
+    
+}
+
+.profile-content {
+    padding: 20px;
+    width: 100%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+button{
+    margin-right: 10px;
+}
+
+.profile-picture {
+    background-color: #dbdbdb;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    padding-left: 0px;
+}
+
+.profile-info button {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 5px 9px;
+    cursor: pointer;
+}
+
+.profile-info .stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-info .stats p {
+    display: inline-block;
+    margin: 10px 20px 10px 0;
+}
+
+.profile-nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: rgb(167, 161, 164);
+}
+
+.profile-nav a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.profile-posts {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profile-posts p {
+    color: #999;
+}
+
+.profile-posts button {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 5px 9px;
+    cursor: pointer;
+}
+
+.edit-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.edit-container input,
+.edit-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-container button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}

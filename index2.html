@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Page</title>
+<link rel="stylesheet" href="styles2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="sidebar">
+    <i class="fa-brands fa-instagram"></i>
+    <h1>Instagram</h1><br>
+    <nav>
+        <i class="fa-solid fa-house">  Home</i><br><br>
+        <i class="fa-solid fa-magnifying-glass">  Search</i><br><br>
+        <i class="fa-regular fa-compass">  Explore</i><br><br>
+        <i class="fa-solid fa-film">  Reels</i><br><br>
+        <i class="fa-regular fa-message">  Messages</i><br><br>
+        <i class="fa-regular fa-heart">  Notifications</i><br><br>
+        <i class="fa-solid fa-plus">  Create</i><br><br>
+        <i class="fa-regular fa-user">  Profile</i>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <i class="fa-solid fa-bars">  More</i>
+    </nav>
+</div>
+<div class="profile-content">
+    <div class="profile-header">
+        <!-- <div class="profile-picture"></div> -->
+        <img src="pika.png" alt="">
+        <div class="profile-info">
+            <h2>Tanmay Shidhani</h2>
+            <button id="edit-profile-btn">Edit Profile</button>
+            <button>View archive</button>
+            <div class="stats">
+                <p><strong>0</strong> posts</p>
+                <p><strong>2056</strong> followers</p>
+                <p><strong>189</strong> following</p>
+            </div>
+            <p class="bio">Bad liar</p>
+        </div>
+    </div>
+    <div class="profile-nav">
+        <a href="#">POSTS</a>
+        <a href="#">SAVED</a>
+        <a href="#">TAGGED</a>
+    </div>
+    <div class="profile-posts">
+        <!-- Posts will be here -->
+        <p>Only you can see what you've saved</p>
+        <button>+ New Collection</button>
+    </div>
+</div>
+
+<div id="edit-overlay" class="edit-overlay">
+    <div class="edit-container">
+        <h2>Edit Profile</h2>
+        <label for="edit-name">Name:</label>
+        <input type="text" id="edit-name" placeholder="Enter your name">
+        <label for="edit-bio">Bio:</label>
+        <textarea id="edit-bio" placeholder="Enter your bio"></textarea>
+        <button id="update-profile-btn">Update</button>
+        <button id="close-overlay-btn">Close</button>
+    </div>
+</div>
+
+<script src="script2.js"></script>
+</body>
+</html>
